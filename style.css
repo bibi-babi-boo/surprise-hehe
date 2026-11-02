@@ -2003,7 +2003,7 @@ body {
 .birthday-text h2 {
   color: white;
   font-family: cursive;
-  font-size: clamp(20px, 3vw, 35px);
+  font-size: clamp(30px, 6vw, 70px);
   font-weight: normal;
   line-height: 1.5;
   margin: 0 auto;
