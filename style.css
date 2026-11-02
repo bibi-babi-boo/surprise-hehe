@@ -1996,14 +1996,14 @@ body {
 .birthday-text h1 {
   color: white;
   font-family: cursive;
-  font-size: clamp(35px, 7vw, 80px);
+  font-size: 80px;
   margin-bottom: 20px; /* Space between title and message */
 }
 
 .birthday-text h2 {
   color: white;
   font-family: cursive;
-  font-size: clamp(30px, 6vw, 70px);
+  font-size: 70px;
   font-weight: normal;
   line-height: 1.5;
   margin: 0 auto;
