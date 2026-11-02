@@ -1995,3 +1995,38 @@ h1 {
   width: 100%;
   z-index: 999;
 }
+/* Make flowers bigger on mobile phones */
+@media screen and (max-width: 600px) {
+
+  .flowers {
+    transform: scale(1.25);
+    transform-origin: bottom center;
+  }
+
+  .flower {
+    --fl-speed: 0.8s;
+  }
+
+  .flower__line {
+    width: 2vmin;
+  }
+
+  .flower__leaf {
+    width: 10vmin;
+    height: 13vmin;
+  }
+
+  .flower__line__leaf {
+    --w: 9vmin;
+    --h: calc(var(--w) + 2vmin);
+  }
+
+  .flower__grass__leaf {
+    --size: 12vmin;
+  }
+
+  .h1 {
+    font-size: 9vw;
+  }
+}
+
