@@ -1983,29 +1983,31 @@ body {
     opacity: 1;
   }
 }
-h1 {
+.birthday-text {
   position: absolute;
-  top: 70px;
+  top: 40px; /* Moves the entire text group up or down */
   left: 50%;
   transform: translateX(-50%);
-  color: white;
-  font-family: cursive;
-  font-size: 100px;
+  width: 90%;
   text-align: center;
-  width: 100%;
   z-index: 999;
 }
-h2 {
-  position: absolute;
-  top: 90px;
-  left: 50%;
-  transform: translateX(-50%);
+
+.birthday-text h1 {
   color: white;
   font-family: cursive;
-  font-size: 50px;
-  text-align: center;
-  width: 100%;
-  z-index: 999;
+  font-size: clamp(35px, 7vw, 80px);
+  margin-bottom: 20px; /* Space between title and message */
+}
+
+.birthday-text h2 {
+  color: white;
+  font-family: cursive;
+  font-size: clamp(16px, 2vw, 25px);
+  font-weight: normal;
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 900px;
 }
 /* Make flowers bigger on mobile phones */
 @media screen and (max-width: 600px) {
