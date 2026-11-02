@@ -1995,6 +1995,18 @@ h1 {
   width: 100%;
   z-index: 999;
 }
+h2 {
+  position: absolute;
+  top: 90px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-family: cursive;
+  font-size: 50px;
+  text-align: center;
+  width: 100%;
+  z-index: 999;
+}
 /* Make flowers bigger on mobile phones */
 @media screen and (max-width: 600px) {
 
