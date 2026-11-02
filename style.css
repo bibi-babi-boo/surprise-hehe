@@ -1985,7 +1985,7 @@ body {
 }
 .birthday-text {
   position: absolute;
-  top: 40px; /* Moves the entire text group up or down */
+  top: 50px; /* Moves the entire text group up or down */
   left: 50%;
   transform: translateX(-50%);
   width: 90%;
@@ -2003,7 +2003,7 @@ body {
 .birthday-text h2 {
   color: white;
   font-family: cursive;
-  font-size: 70px;
+  font-size: 60px;
   font-weight: normal;
   line-height: 1.5;
   margin: 0 auto;
